@@ -28,4 +28,10 @@ header {
   font-size: 16.7px;
   text-decoration: none;
   color: #252525;
+  transition: background .3s linear;
+}
+.menu-link:hover {
+  background: gray;
+  opacity: 80%;
+  color: white;
 }
