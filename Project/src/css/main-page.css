@@ -1,6 +1,7 @@
 /* intro */
 .intro {
   width: 100%;
+  max-width: 100%;
   height:600px;
   background: url(../img/01.png) center no-repeat;
   background-size: cover;
@@ -121,4 +122,103 @@
 .logo-footer {
   height: 15px;
   padding-left: 280px;
+}
+@media (max-width: 810px) {
+  .intro-text {
+    font-size: 59px;
+  }
+  .btn-intro {
+    font-size: 8px;
+  }
+  .inner-header {
+    text-align: center;
+    padding-right: 20px;
+  }
+  }
+  .btn-inner {
+    font-size: 10px;
+  }
+  .btn-btn {
+    padding-top: 30px;
+  }
+  .header-img {
+    padding-left: 20px;
+  }
+  .text-header {
+    padding-top: 8px;
+  }
+
+@media (max-width: 790px) {
+  .menu {
+    display: none;
+  }
+  .logo {
+    padding-left: 25px;
+  }
+  .intro-text {
+    font-size: 45px;
+  }
+  .btn {
+    padding-top:20px;
+    font-size:3px;
+  }
+}
+@media (max-width:740px) {
+  .inner-header {
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 45px;
+    padding-left: 20px;
+  }
+  .text-title {
+    padding-top: 20px;
+  }
+  .btn-inner {
+    font-size: 8px;
+  }
+  .btn-btn {
+    padding-top: 15px;
+  }
+  .btn-btn {
+    padding-top: 15px;
+  }
+  .section-header {
+    padding-top: 85px;
+    padding-left: 20px;
+  }
+  .text-subsection {
+    font-size: 13px;
+  }
+  .portfolio-img {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 706px) {
+  .container {
+    height: 172px;
+  }
+  .text-title {
+    padding-top: 5px;
+
+  }
+  .text-header {
+    font-size: 20px;
+  }
+  .text-subheader {
+    font-size: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .section-header {
+    padding-top: 60px;
+  }
+  .text-section {
+    font-size: 20px;
+  }
+  .text-subsection {
+    width: 70%;
+  }
+
 }
