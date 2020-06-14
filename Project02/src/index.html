@@ -1,15 +1,119 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Hello, world!&2</title>
+  <link rel="stylesheet" href="../src/css/commons.css">
+  <link rel="stylesheet" href="../src/css/header.css">
+  <link rel="stylesheet" href="../src/css/main.css">
+  <title>Main</title>
 </head>
 
 <body>
-  <h1>Hello, world!</h1>
-  <script src="../src/js/style.js"></script>
+
+  <header class="header">
+    <div class="container">
+      <div class="inner-header">
+        <div class="logo">
+          <img src="../src/img/Logo.png" alt="img">
+        </div>
+        <nav class="nav">
+          <a href="#" class="nav_link">Home</a>
+          <a href="#" class="nav_link">About</a>
+          <a href="#" class="nav_link">servises</a>
+          <a href="#" class="nav_link">gallery</a>
+          <a href="#" class="nav_link">contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="text-header">
+        <h1 class="text"><span>Travel is</span><strong><br>beautiful</strong></h1>
+        <p class="text-subheader">Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+      </div>
+      <div class="form">
+        <form class="form_header" action="../src/index.html" method="GET">
+          <h1>REQUEST A QUOTE</h1>
+          <input class="form_link" type="text" name="Full name" placeholder="Full name"><br>
+          <input class="form_link" type="email" name="Email Adress" placeholder="Email Adress"><br>
+          <input class="form_link" type="number" name="Phone Number" placeholder="Phone Number"><br>
+          <input class="form_link" type="text" name="country" placeholder="Country"><br>
+          <input class="checkbox_input" type="checkbox" value="1" id="checkbox_1">
+          <label class="checkbox" for="checkbox">I accept the terms &conditions</label>
+          <input class="form_link" type="submit" name="submit" value="SEND">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="intro">
+    <div class="container">
+      <div class="text-intro">
+        <h1 class="text-title"><span>OUR</span>SERVICES</h1>
+      </div>
+      <div class="intro-title">
+        <div class="col">
+          <img src="../src/img/01.png" alt="IMG">
+          <p class="col-text">Making your trip<br> beautiful and easier</p>
+        </div>
+        <div class="col">
+          <img src="../src/img/02.png" alt="img">
+          <p class="col-text">Tools to help you<br> succeed tommorow</p>
+        </div>
+        <div class="col">
+          <img src="../src/img/03.png" alt="img">
+          <p class="col-text">Ideas that will blow<br> you out the blue.</p>
+        </div>
+        <div class="col">
+          <img src="../src/img/04.png" alt="img">
+          <p class="col-text">Navigate your path<br> to beautiful world.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="inner">
+    <div class="container">
+      <div class="text-inner">
+        <p class="text-inner-header">We are in business for<br> over 6 years providing amazing services</p>
+        <form action="#" class="form-inner">
+          <input class="btn" type="button" name="button" value="Our story">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="Price">
+    <div class="container">
+      <div class="text-price">
+        <h1 class="text-title">PRICING</h1>
+      </div>
+      <div class="price_tags">
+        <div class="price_tag">
+          <span>Starter</span>
+          <h2>Free</h2>
+          <p>Free Service Multiple Accounts Management No<br> -- --</p>
+          <button class="price_btn">Try</button>
+        </div>
+        <div class="price_tag">
+          <span>Business</span>
+          <h2>$97</h2>
+          <p>Free Service Multiple Accounts Management No Unlimited Data<br> --</p>
+          <button class="price_btn">Sign up</button>
+        </div>
+        <div class="price_tag">
+          <span>Professional</span>
+          <h2>$297</h2>
+          <p>Free Service Multiple Accounts Management No Unlimited Data Whatever you Need</p>
+          <button class="price_btn">Sign up</button>
+        </div>
+      </div>
+    </div>
+
 </body>
 
 </html>
